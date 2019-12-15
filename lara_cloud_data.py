@@ -155,7 +155,7 @@ if __name__ == '__main__':
 
     # Read range of dates in a year, do some simple statistics, and write everything to individual h5 files for  a day
     if True:
-        year  = 2016
+        year  = 2018
         m0,d0 = 1,1    # start (m,d)
         m1,d1 = 12,31  # end (m,d)
         j0    = int((datetime.datetime(year,m0,d0)-datetime.datetime(year,1,1)).total_seconds()/86400.0 + 1.0)
